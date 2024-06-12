@@ -62,6 +62,31 @@ frases__pro__cris = [
     "Meu coração é seu, agora e para sempre ❤"
 ]
 
+frases__ligar__pc = [
+    "Oiii amorr, budiaaaaa ❤",
+    "Inhaiii, bora um vava?",
+    "PPSPSPSPSPSPS QUE GATINHO É ESSE AQUI?",
+    "Mim manda mensagi, nunca te pedi nada :3",
+    "Tô com saudades, bó fica juntin",
+    "Heyy 👋, tipo assim... sabe, Tu não é o google 🤓, mas tem tudo 🌎 que eu tenho procurado",
+    "Ei 👋, você não é Wi-Fi 📶, mas sinto uma conexão forte 💪 entre nós.",
+    "Desculpa pelos meme cringe de emoji.",
+    "Já tomou água hoje?",
+    "Lembra que você tem que descansar, carregar o peso de ser uma gostosa como você dá trabalho!",
+    "O que você pensa sobre a invasão alemã de 1941 a URSS?",
+    "Vem cáaaa pra eu te dar um cheirinho nesse seu pescoço meu lindo",
+    "E aí meu nenê? Como tá o dia? ❤️",
+    "Tô morrendo de saudades, vamos ficar juntinhos logooooooo",
+    "Ei, vamos assistir algo mais tarde depois? adoro ficar com você meu preto",
+    "Você é o motivo do meu sorriso, obrigado por estar aqui amor, eu te amo",
+    "Heyyy 👋, se eu fosse uma estrela 🌟, desejaria estar ao seu lado todas as noites 🌠",
+    "Estou aqui para você, hoje e sempre. Só queria que soubesse",
+    "Hey, só queria dizer que você é incrível do jeitinho que é",
+    "Quando fico pensando em você, me pego sorrindo todo bobo ksksksk ❤",
+    "Feijão por cima do arroz e eu por cima de vc bb",
+    "Tá fazendo frio né? \nQuer um casaco?\nÉ só casaco migo skskskksksk"
+]
+
 icones__para__mensagens = [
     "_internal/assets/img/dragon1.ico",
     "_internal/assets/img/dragon2.ico",
@@ -72,6 +97,18 @@ icones__para__mensagens = [
 
 
 #  --!! Runtime Code !!--
+
+# Envia uma mensagem de boas-vindas
+
+notification.notify(
+    app_name="De Hiikkie para Cris",
+    title="Bum diaaaaaa",
+    message=random.choice(frases__ligar__pc),
+    app_icon=random.choice(icones__para__mensagens),
+    timeout=10
+)
+
+time.sleep(1800)
 
 # Envia uma notificação infinitamente
 while True:
