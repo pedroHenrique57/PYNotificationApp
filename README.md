@@ -42,6 +42,9 @@ Código pronto para rodar:
 pyinstaller "De Hiikkie para Cris.spec"
 ```
 
+Após compilar o código, na pasta do projeto será gerado duas pastas: `Build` e `Dist`.  
+O arquivo `.exe` do projeto estará na pasta `Dist`. Execute o arquivo `.exe` e veja a notificação aparecendo!
+
 # Contribuições
 > [!WARNING]  
 > Quando o pyInstaller compila o código, ele coloca todos os pacotes do projeto, scripts e dependências dentro da pasta `_instance`. Leve isso em consideração ao referenciar paths.
