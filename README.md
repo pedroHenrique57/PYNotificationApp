@@ -43,7 +43,13 @@ pyinstaller "De Hiikkie para Cris.spec"
 ```
 
 Após compilar o código, na pasta do projeto será gerado duas pastas: `Build` e `Dist`.  
-O arquivo `.exe` do projeto estará na pasta `Dist`. Execute o arquivo `.exe` e veja a notificação aparecendo!
+  
+O arquivo `.exe` do projeto estará na pasta `Dist`. Execute o arquivo `.exe` e veja as notificações aparecendo!
+
+> [!IMPORTANT]  
+> É necessário que a pasta `_instance` gerada no mesmo nível que o arquivo `.exe` fiquem juntas em uma pasta no mesmo nível.  
+>   
+> Recomendo criar um atalho do `.exe` e adicionar o atalho a `Startup Folder` do Windows.
 
 # Contribuições
 > [!WARNING]  
